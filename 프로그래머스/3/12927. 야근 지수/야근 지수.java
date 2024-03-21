@@ -2,7 +2,7 @@ import java.util.*;
 class Solution {
     public long solution(int n, int[] works) {
         long answer = 0;
-        // 내림차순 우선순위 큐 선언
+        // 내림차순 우선순위 큐
         PriorityQueue<Integer> queue = new PriorityQueue<>(Collections.reverseOrder());
         
         // 큐에 배열값 넣기
