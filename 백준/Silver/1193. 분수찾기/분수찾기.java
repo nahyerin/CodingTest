@@ -15,7 +15,7 @@ public class Main {
                     break;
                 }else{ //(해당 대각선의 칸의 개수가 짝수, 분자+분모(T) = 홀수)
                     //대각선의 개수가 짝수인 범위 내에서는 아래쪽(↙︎︎) 으로 순회 -> 분자 증가, 분모 감소
-                    // ︎홀수와 반대로 계산하면 된다
+                    // ︎홀수와 반대
                     System.out.println((X - squareSum) + "/" + (squareCount-(X - squareSum -1)));
                     break;
                 }
