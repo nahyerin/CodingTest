@@ -9,7 +9,7 @@ class Solution {
         dfs(0, k, dungeons);
         return answer;
     }
-    //visited-> 방문 처리(이미 방문한 곳은 다시 방문하지 않도록)
+    //방문 처리(이미 방문한 곳은 다시 방문하지 않도록)
     public void dfs(int cnt, int fatigue, int[][] dg) {
         for(int i = 0; i < dg.length; i++){
             if(visited[i] || dg[i][0] > fatigue) continue;
