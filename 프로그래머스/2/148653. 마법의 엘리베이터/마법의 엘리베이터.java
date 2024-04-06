@@ -9,7 +9,7 @@ class Solution {
 			if (one > 5) { //  올림
 				answer += (10 - one);
 				storey += 10;
-			} else if (one == 5) { // 10의 자리가 5이상이면 올림, 5미만이면 내림
+			} else if (one == 5) { // 10의 자리가 5이상이면 올림, 5미만 내림
 				answer += one;
 				storey += (ten < 5 ? 0 : 10);
 			} else { //  내림
