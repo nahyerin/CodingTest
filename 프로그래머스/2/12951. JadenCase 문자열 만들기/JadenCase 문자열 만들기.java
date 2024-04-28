@@ -4,7 +4,7 @@ class Solution {
     public String solution(String s) {
         String answer = "";
     	
-    	// " " 기준으로 문자열 잘라서 배열에 넣음
+    	// " " 기준으로 문자열 잘라서 넣기
     	String[] arr = s.split(" ");
     	// 잘린 문자열을 순서대로 처리
     	for(int i=0; i<arr.length; i++) {
