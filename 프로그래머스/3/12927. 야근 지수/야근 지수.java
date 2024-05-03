@@ -5,7 +5,7 @@ class Solution {
         // 내림차순 우선순위 큐
         PriorityQueue<Integer> queue = new PriorityQueue<>(Collections.reverseOrder());
         
-        // 큐에 배열값 넣기
+        // 큐에 배열값
         for (int i = 0; i < works.length; i++) {
             queue.add(works[i]);
         }
