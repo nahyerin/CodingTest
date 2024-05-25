@@ -9,7 +9,7 @@ class Solution {
             for(int i=0; i<n; i++){
                 answer[i] = s/n; //가능한 작은 수부터 차례로 집합에 추가
             }
-        }else{ //안나눠지는 경우
+        }else{ 
             int remainder = s%n; //나머지를 계산하여 나중에 추가
             int po = n - remainder; //1씩 더해줘야하는 인덱스 위치
             for(int i=0; i<po; i++){
