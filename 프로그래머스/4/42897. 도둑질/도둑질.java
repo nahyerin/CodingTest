@@ -16,7 +16,7 @@ class Solution {
             dpX[i] = Math.max(dpX[i - 1], money[i] + dpX[i - 2]);
         }
 
-		//첫집을 터는 경우, 막집은 못터니까 dpO[len-2]까지만 가능하다
+		//첫집을 터는 경우, 못터니까 dpO[len-2]까지만 가능하다
         return Math.max(dpO[len - 2], dpX[len - 1]);
     }
 }
